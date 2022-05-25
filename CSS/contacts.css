@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    background-color: rgba(66, 23, 239, 0.18);
+    width: 1520px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+.osnova{
+    height: auto;
+    width: 100%;
+    }
+header{
+    display: flex;
+    position: fixed;
+    width: 1521px;
+    z-index: 2;
+    top: 0;
+    height: 90px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #B4BFE7;
+    column-gap: 75px;
+    }
+
+
+
+.search{
+    background-color: #0075FF;
+    color: #FFFFFF;
+    height: 50px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif ;
+    border-radius: 26px;
+}
+
+.center{
+    width: 100%;/*фиксируем ширину обертки*/
+    margin: 0;/*центрируем ее*/
+    height: 100%;
+}
+
+.dilers{
+    float: center;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+
+.dilersWord{
+    font-size: 30px;
+    text-indent: 3px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.atlantword{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.atlant{
+    margin-top: 4%;
+    margin-left: 42%;
+}
+
+.avtoNal{
+    margin-top: 5%;
+    margin-left: 41%;
+}
+
+.search{
+    border: 0.1px solid rgba(66, 23, 239, 0.18);
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    height: 50px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif ;
+    border-radius: 26px;
+    font-size: 20px;
+}
+
+.ofhist{
+    margin-top: 6%;
+    margin-left: 41%;
+}
+
+.ofhistb{
+    border: 0.1px solid rgba(66, 23, 239, 0.18);
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    height: 50px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif ;
+    border-radius: 26px;
+    font-size: 20px;
+}
+
+.nomer1{
+    float: left;
+    font-size: 30px;
+    margin-top: 4.9%;
+    margin-left: 10%;
+}
+
+.nomer2{
+    float: right;
+    font-size: 30px;
+    margin-top: 4.9%;
+    margin-right: 10%;
+}
+
+.container{
+    display: flex;
+    width: 1500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4px;
+}
+
+#logotip{   
+    height: 92px;
+    margin-left: 79%;
+    width: 100px;
+    mix-blend-mode: darken;
+    margin-top: 1px;
+}
+
+#logotip_footer{
+
+    height: 220px;
+    margin-left: 0.5%;
+    width: 100%;
+    mix-blend-mode: darken;
+    margin-top: 0.1px;
+}
+.login{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-left: 0.01%;
+}
+
+.login1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-left: 0.01%; 
+}
+
+.button{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #A80000;
+    text-shadow: 0px 3px 0px 0px #00000040 inset;
+}
+footer{
+    height: 315px;
+    width: 1520px;
+    background-color: #303150;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0%;
+}
+
+.logo_footer{
+   padding-bottom: 0%;
+    width: 16%;
+    
+    font-family: 'Montserrat', sans-serif;
+margin-left: 5%;
+   
+}
+.nomer{
+    margin-left: 20%;
+    color: #FFFFFF;
+}
+.name{
+    margin-left: 22%;
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+#logotip_footer{
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 0.1%;
+}
+
+.social{
+    
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    margin-top: 8%;
+    
+}
+
+.poschta{
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    margin-top: 10%;
+}
+.tekst{
+    width: 80%;
+}
+.vag2{
+    color: #0075FF;
+}
+.VAG2022{
+    margin-top: 12%;
+    margin-right: 3%;
+}
+.VAG{
+    padding-right: 7%;
+}
+
+.svaz{
+    width: 70%;
+    margin-left: auto;
+}
+
+.si1{
+    font-size: 25px;
+}
+
+.si{
+    font-style: oblique;
+}
+
+@media  (max-width:1017px){
+    .zvonite{
+        display: none;
+    }
+   
+}
+@media  (max-width:900px){
+
+    .nomer{
+        font-size: 10px;
+    }
+    .gmail{
+        font-size: 10px;
+    }
+
+}
+@media(max-width:800px){
+    
+}
+@media(max-width:200%){
+    #logotip{
+        margin-left: 0.1%;
+    }
+}
+@media(max-width:300%){
+
+    #logotip{
+        margin-top: 10%;
+    }
+    
+}
+@media(max-width:400%){
+    
+    #logotip{
+        margin-right: 10%;
+        height: 50px;
+    }
+    
+}
+@media(max-width:300px){
+    .social{
+        width: 50%;
+    }
+}
+
